@@ -190,6 +190,7 @@ LICENSE file.
     <module>memcached</module>
     <module>mongodb</module>
     <module>nosqldb</module>
+    <module>leveldb</module>
     <module>orientdb</module>
     <module>postgrenosql</module>
     <module>rados</module>
@@ -251,7 +252,7 @@ LICENSE file.
           <target>1.8</target>
         </configuration>
       </plugin>
-      <plugin>
+      <!-- <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <executions>
@@ -266,7 +267,7 @@ LICENSE file.
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
     </plugins>
   </build>
   <profiles>
